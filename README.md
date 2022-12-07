@@ -28,7 +28,7 @@ Step 2 - Select micropython and port in thonny for this go to run-> select inter
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img9.jpg" />
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img10.JPG" />
 
-Step 3 - Save python file to RangePi
+Step 3 - Save python file to USB-Dongle-based-on-LoRa
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img13.png" />
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img14.png" />
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img11.JPG" />
@@ -44,20 +44,20 @@ Step 4 - Run(execute) and stop file (script)
  * Holding down the USB-Dongle-based-on-LoRa BOOTSEL button while dragging this file into the mounted RP2 folder will allow you to load it.
 
 ## code
-### First you need to install firmware of 1.14 lcd screen to RangePi, for this press boot button then plug to laptop/desktop after that release the button, you see new        storage device. then drag and drop **firmware.uf2** file to RangePi
+### First you need to install firmware of 1.14 lcd screen to USB-Dongle-based-on-LoRa, for this press boot button then plug to laptop/desktop after that release the button, you see a new storage device. then drag and drop **firmware.uf2** file to RangePi
 
 * Receiver
-  * **rangepi_receiver.py** - Run this file if you make RangePi as receiver ( in all case receiver is same ) 
+  * **rangepi_receiver.py** - Run this file if you make USB-Dongle-based-on-LoRa as receiver ( in all case receiver is same ) 
     <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img6.JPG" />
  
 * Transmitter  
-  * **rangepi_transmitter.py** - Run this file if you make RangePi as transmitter 
+  * **rangepi_transmitter.py** - Run this file if you make USB-Dongle-based-on-LoRa as transmitter 
     <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img5.JPG" />
   
-  * **user_input_transmitter.py** - Run this file if you make RangePi as transmitter or you can transmit using window applications like XCTU, Tera Term etc.
+  * **user_input_transmitter.py** - Run this file if you make USB-Dongle-based-on-LoRa as transmitter or you can transmit using window applications like XCTU, Tera Term etc.
     <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img3.JPG" />
     
-  * **messenger.py** - Run this file if you want to talk through message like messenger(run the file in both rangepi)
+  * **messenger.py** - Run this file if you want to talk through message like messenger(run the file in both USB-Dongle-based-on-LoRa)
     <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img7.JPG" />
     
 * **rangepi_configuration.py** - Rename this file as main.py and save this file inside RangePi and go to below video link to configure your RangePi board.
