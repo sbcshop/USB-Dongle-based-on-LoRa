@@ -19,7 +19,7 @@ Use thonny python IDE for programming,link of the software is given below :
 
 https://thonny.org/
 
-### Steps to load python file to RangePi
+### Steps to load python file to USB-Dongle-based-on-LoRa
 
 Step 1 - Open thonny 
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img12.JPG" />
